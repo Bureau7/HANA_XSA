@@ -1,0 +1,17 @@
+ID: HANA_XSA_BUREAU7
+_schema-version: '2.0'
+description: HANA XSA NodeJS Test Developments
+version: 0.0.1
+
+modules:
+ - name: SimpleServer
+   type: nodejs
+   path: NodeJS/SimpleServer
+   provides:
+    - name: SimpleServer_api
+      properties:
+         url: ${default-url}
+
+ 
+
+ 
