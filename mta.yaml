@@ -15,3 +15,12 @@ modules:
  
 
  
+
+ - name: express_website
+   type: nodejs
+   path: NodeJS/express_website
+   provides:
+    - name: express_website_api
+      properties:
+         url: ${default-url}
+
