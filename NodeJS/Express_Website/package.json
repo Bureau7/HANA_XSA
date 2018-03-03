@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+  	"pug":"*",
+  	"body-parser": "*",
+  	"express":"*",
+  	"nodemailer":"*"
+
+  },
+  "description": "Simple Express Website",
+  "devDependencies": {},
+  "files": [],
+  "main": "app.js",
+  "name": "express_website",
+  "scripts": {
+    "start": "node app.js"
+   },
+  "engines": {
+    "node": "6.x"
+  },
+  "version": "1.0.0"
+}

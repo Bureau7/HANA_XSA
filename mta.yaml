@@ -18,7 +18,7 @@ modules:
 
  - name: express_website
    type: nodejs
-   path: NodeJS/express_website
+   path: NodeJS/Express_Website
    provides:
     - name: express_website_api
       properties:
