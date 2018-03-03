@@ -7,7 +7,10 @@ The examples based on Brad Traversy's 12 NodeJS projects and adapted for SAP HAN
 All copyrights are with their respective owners.
 
 --------------------------------------------
+```
 1. SimpleServer is just a concept.
-2. Express Website utilises - Pug (former Jade) is unavailable in SAP's NPM repository, so copied manually into the node_modules for express website project.
+2. Express Website utilises - Pug (former Jade) is unavailable in SAP's NPM repository, so the public repo should be switched on following guide over here:
+   https://bitbucket.org/alunde/mta_upstream_registry
+   (for endpoint api - xs api https://<hostname>:3<instance_number>30)	
 
 

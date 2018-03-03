@@ -1,9 +1,10 @@
 {
   "dependencies": {
+  	"pug":"*",
   	"body-parser": "*",
   	"express":"*",
   	"nodemailer":"*"
-  	
+
   },
   "description": "Simple Express Website",
   "devDependencies": {
